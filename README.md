@@ -1,2 +1,2 @@
-# ImageEditor
+Til Fonden Team Golå
 
