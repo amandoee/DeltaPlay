@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:keepScreenOn="true">
+
+  <FrameLayout
+      android:id="@+id/container"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_above="@id/btn_add"
+      android:layout_alignParentTop="true"
+      android:background="#FFFFFF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <ImageView
+          android:id="@+id/imageView"
+          android:layout_width="360dp"
+          android:layout_height="170dp"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:srcCompat="@drawable/hus" />
+
+      <ImageView
+          android:id="@+id/imageView4"
+          android:layout_width="360dp"
+          android:layout_height="170dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:srcCompat="@drawable/vl" />
+
+      <ImageView
+          android:id="@+id/imageView5"
+          android:layout_width="360dp"
+          android:layout_height="170dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:srcCompat="@drawable/ig" />
+
+      <ImageView
+          android:id="@+id/imageView2"
+          android:layout_width="360dp"
+          android:layout_height="170dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:srcCompat="@drawable/stald" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+  </FrameLayout>
+
+  <Button
+      android:id="@+id/btn_add"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:text="Tilføj Personale" />
+
+</RelativeLayout>

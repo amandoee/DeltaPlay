@@ -1,0 +1,7 @@
+Sæt Id til den nyeligt lavede imageView.
+
+Det kaldes vist et dynamic element, når det er tilføjet efter start? Det er selve udfordringen.
+
+Derefter gør, at ID ændrer sig med 1 hver gang der er lavet en (i).
+
+Til sidst, så få en saveinstance til at gemme billeder for id op til den højeste værdi (i).
